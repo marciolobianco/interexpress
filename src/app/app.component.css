@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    flex-shrink: 0!important;
+    width: 100%;
+    background-image: url("../assets/containers1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    height: min-content;
+}
+
+nav a {
+    border: none
+}
+
+#menu {
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid #000
+}
+
+#logo {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#navbarCollapse {
+    float: right;
+    margin-top: 30px;
+}
+
+.bg-light {
+    background-color: #015eea!important;
+}
+
+.bg-light li {
+    font-weight: 700;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+#container1 {
+    margin-top: 128px;
+    color: #fff;
+}
+
+#container1 h1,
+h2,
+h3,
+h4,
+a {
+    margin-bottom: 30px;
+}
+
+#container1 h1 {
+    font-size: 50px;
+}
+
+
+/* .painel {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #015eea!important;
+    border: 1px solid #000;
+} */
