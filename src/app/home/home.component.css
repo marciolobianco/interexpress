@@ -1,0 +1,138 @@
+#main0 {
+    color: #fff;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    flex-shrink: 0!important;
+    height: 450px;
+}
+
+#main1 {
+    margin-top: 90px;
+    background-image: url("../../assets/containers1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    flex-shrink: 0!important;
+}
+
+#main2 {
+    /* background-image: url("../assets/banner1.jpg"); */
+    background-color: #ff9100;
+    color: #fff;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    flex-shrink: 0!important;
+}
+
+.container450 {
+    padding-top: 60px;
+    height: 450px;
+    color: #fff;
+}
+
+.container {
+    padding-top: 60px;
+    height: 550px;
+    color: #fff;
+}
+
+.containerSemMargin {
+    padding-top: 0px;
+    height: 650px;
+    color: #fff;
+}
+
+.h_semMargin {
+    margin: 0
+}
+
+#container1 h1 {
+    font-size: 70px;
+}
+
+#container1 h2 {
+    font-size: 30px;
+}
+
+#container1 h3 {
+    font-size: 20px;
+}
+
+.btn-laranja {
+    background-color: #ff9100;
+    border: none;
+    height: 80px;
+    width: 170px;
+    padding-top: 25px;
+}
+
+.btn-laranja:hover {
+    background-color: #fdb351;
+    border: none;
+}
+
+#painel1 {
+    padding-top: 50px;
+}
+
+.lang {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-justify-content: flex-end !important;
+    justify-content: flex-end !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+}
+
+
+/* .painel {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #015eea!important;
+    border: 1px solid #000;
+} */
+
+h1,
+h2,
+h3,
+h4,
+a {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/* =============================================== articles ====================================== */
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: none;
+}
+
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: none;
+}
+
+.browser>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}
